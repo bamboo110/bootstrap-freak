@@ -1,0 +1,58 @@
+/* header */
+
+.header{
+  min-width: 100vw;
+}
+
+.header > .navbar{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header > .navbar > .navbar-brand{
+  color: white;
+  font-size: 40px;
+  margin-left: 20%;
+}
+
+.header > .navbar > .collapse{
+  margin-right: 20%;
+}
+
+.header > .navbar > .collapse > ul > li{
+  margin: 5px;
+}
+
+.header > .navbar > .collapse > ul > .active{
+  border-bottom: solid 3px #0099ff;
+}
+
+.header > .navbar > .collapse > ul > li > a{
+  color: white;
+  font-size: 15px;
+}
+
+.header > .navbar > .collapse > ul > .bor:hover > a{
+  border-bottom: solid 3px #0099ff;
+}
+
+.header > .navbar > .collapse > ul > .dropdown > .dropdown-menu > a:hover{
+  color: white;
+  background-color: #0099ff;
+}
+
+/* section 1*/
+
+.section-1{
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.section-1 > h1{
+  color: white;
+  margin-top: 20%;
+}
+
+.section-1 > p{
+  color: white;
+}
