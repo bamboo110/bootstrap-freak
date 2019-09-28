@@ -147,18 +147,35 @@
 }
 
 .section-4 > .container > .row > .col-md{
-  margin: 30px;
+  margin: 20px;
 }
 
-.section-4 > .container > .row > .col-md > .card > .card-body > a{
-  display: block;
+.section-4 > .container > .row > .col-md > .card > .card-body{
+  background-color: #e6e6e6;
+}
+
+.section-4 > .container > .row > .col-md > .card > .card-body > .icon > a{
   position: relative;
   bottom: 40px;
   font-size: 30px;
+  color: white;
+  background-color: #0099ff;
+  padding: 10px 15px;
+  border-radius: 100%;
+}
+
+.section-4 > .container > .row > .col-md > .card > .card-body > .icon > a:hover{
+  color: #0099ff;
+  background-color: white;
+  border: solid 3px #0099ff;
 }
 
 .section-4 > .container > .first{
   margin-top: 80px;
+}
+
+.section-4 > .container > .third{
+  margin-bottom: 50px;
 }
 
 
@@ -175,6 +192,19 @@
 
   .section-2 > .content > .img > .image{
     width: 60vw;
+  }
+
+  /* section 4 */
+  .section-4 > .container > .row > .col-md > .card > .card-body > .icon > a{
+    font-size: 25px;
+  }
+
+  .section-4 > .container > .row > .col-md > .card > .card-body > h5{
+    font-size: 18px;
+  }
+
+  .section-4 > .container > .row > .col-md > .card > .card-body > p{
+    font-size: 12px
   }
 
 @media (max-width : 500px){
