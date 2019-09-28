@@ -6,7 +6,7 @@
 
 .header > .navbar{
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8)
 }
 
 .header > .navbar > .navbar-brand{
@@ -94,6 +94,7 @@
 
 .section-2 > .content > .para{
   width: 500px;
+  margin-left: 20px;
 }
 
 .section-2 > .content > .para > ul > li{
@@ -104,7 +105,7 @@
   right: 50px;
 }
 
-.section-2 > .content > .para > ul > li > i{
+.section-2 > .content > .para > ul > li > .icon > i{
   padding: 20px 20px;
   font-size: 25px;
   color: #0099ff;
@@ -128,16 +129,29 @@
   background-color: #e6e6e6;
 }
 
-.section-3 > .container > .fact > .col-md > h2{
+.section-3 > .container > .content > .fac > .col-md > h1{
   margin-top: 80px;
 }
 
-.section-3 > .container > .cal > .col-md > h1{
+.section-3 > .container > .content > .cal > .col-md > h1{
   margin-top: 50px;
   color: #0099ff;
 }
 
+/* section 4 */
 
+.section-4{
+  min-width: 100vw;
+  min-height: 700px;
+}
+
+.section-4 > .container > .row > .col-md{
+  margin: 10px;
+}
+
+.section-4 > .container > .first{
+  margin-top: 80px;
+}
 
 
 
@@ -156,25 +170,38 @@
   }
 
 @media (max-width : 500px){
+  /* section 1 */
+  .section-1 > .container-fluid > .para > h1{
+    font-size: 25px;
+  }
+
+  .section-1 > .container-fluid > .para > p{
+    font-size: 12px;
+  }
+
+  .section-1 > .container-fluid > .button > .btn{
+    font-size: 15px;
+  }
+
   /* section 2 */
   .section-2 > .content > .para{
-    width: 300px;
+    width: 80vw;
   }
 
   .section-2 > .content > .para > h1{
-    text-align: center;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .section-2 > .content > .para > p{
-    text-align: center;
     font-size: 12px;
   }
+
   .section-2 > .content > .para > ul > li > p{
     font-size: 12px;
   }
 
-  .section-2 > .content > .para > ul > li > i{
-    font-size: 50px;
+  .section-2 > .content > .para > ul > li > .icon > i{
+    font-size: 20px;
+    padding: 10px 10px;
   }
 }
