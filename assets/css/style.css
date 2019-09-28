@@ -77,3 +77,22 @@
 }
 
 /* section 2 */
+
+.section-2 > .container > .row > .img > .image{
+  width: 40vw;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width :767px){
+  .section-2 > .container > .row{
+    display: flex !important;
+    flex-direction: row-reverse !important;
+  }
+}
