@@ -25,7 +25,7 @@
 }
 
 .header > .navbar > .collapse > ul > .active{
-  border-bottom: solid 3px #0099ff;
+  border-bottom: solid 3px #2DC997;
 }
 
 .header > .navbar > .collapse > ul > li > a{
@@ -34,12 +34,12 @@
 }
 
 .header > .navbar > .collapse > ul > .bor:hover > a{
-  border-bottom: solid 3px #0099ff;
+  border-bottom: solid 3px #2DC997;
 }
 
 .header > .navbar > .collapse > ul > .dropdown > .dropdown-menu > a:hover{
   color: white;
-  background-color: #0099ff;
+  background-color: #2DC997;
 }
 
 /* section 1*/
@@ -73,7 +73,7 @@
 
 .section-1 > .container-fluid > .button > .btn:hover{
   color: white;
-  background-color: #0099ff;
+  background-color: #2DC997;
   border: none;
 }
 
@@ -109,8 +109,8 @@
 .section-2 > .content > .para > ul > li > .icon > i{
   padding: 20px 20px;
   font-size: 25px;
-  color: #0099ff;
-  border: solid 3px #0099ff;
+  color: #2DC997;
+  border: solid 3px #2DC997;
 }
 
 .section-2 > .content > .para > ul > li > p{
@@ -127,7 +127,7 @@
 .section-3{
   min-width: 100vw;
   min-height: 400px;
-  background-color: #e6e6e6;
+  background-color: #F7F7F7;
 }
 
 .section-3 > .container > .fac > .col-md > h1{
@@ -155,7 +155,7 @@
 }
 
 .section-4 > .container > .row > .col-md > .card > .card-body{
-  background-color: #e6e6e6;
+  background-color: #FAFAFA;
 }
 
 .section-4 > .container > .row > .col-md > .card > .card-body > .icon > a{
@@ -163,15 +163,15 @@
   bottom: 40px;
   font-size: 30px;
   color: white;
-  background-color: #0099ff;
+  background-color: #2DC997;
   padding: 10px 15px;
   border-radius: 100%;
 }
 
 .section-4 > .container > .row > .col-md > .card > .card-body > .icon > a:hover{
-  color: #0099ff;
+  color: #2DC997;
   background-color: white;
-  border: solid 3px #0099ff;
+  border: solid 3px #2DC997;
 }
 
 .section-4 > .container > .first{
@@ -208,7 +208,7 @@
 
 .section-5 > .container > .row > .col-md-4 > .button > button:hover{
   border: none;
-  background-color: #0099ff;
+  background-color: #2DC997;
 }
 
 
