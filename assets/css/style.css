@@ -182,7 +182,34 @@
   margin-bottom: 50px;
 }
 
+/* section 5 */
+.section-5{
+  min-width: 100vw;
+  min-height: 300px;
+  background-image: url(../img/soroush-karimi-tUDlGlr1sAA-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+.section-5 > .container{
+  color: white;
+}
+
+.section-5 > .container > .row > .col-md-8 > .para{
+  margin-top: 100px;
+}
+
+.section-5 > .container > .row > .col-md-4 > .button > button{
+  margin-top: 135px;
+  color: white;
+  border: solid 1px white;
+  padding: 5px 20px;
+}
+
+.section-5 > .container > .row > .col-md-4 > .button > button:hover{
+  border: none;
+  background-color: #0099ff;
+}
 
 
 
@@ -210,6 +237,24 @@
   .section-4 > .container > .row > .col-md > .card > .card-body > p{
     font-size: 12px
   }
+
+  
+  /* section 5 */
+  .section-5 > .container > .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-5 > .container > .row > .col-md-8 > .para{
+    text-align: center;
+  }
+
+  .section-5 > .container > .row > .col-md-4 > .button > button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
 
 @media (max-width : 500px){
   /* section 1 */
@@ -246,4 +291,18 @@
     font-size: 20px;
     padding: 10px 10px;
   }
+
+  /* section 5 */
+  .section-5 > .container > .row > .col-md-8 > .para > h3{
+    font-size: 25px;
+  }
+
+  .section-5 > .container > .row > .col-md-8 > .para > p{
+    font-size: 12px;
+  }
+
+  .section-5 > .container > .row > .col-md-4 > .button > button > h5{
+    font-size: 12px;
+  }
+
 }
