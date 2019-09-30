@@ -140,7 +140,7 @@
 
 .section-3 > .container > .cal > .col-md > h1{
   margin-top: 50px;
-  color: #0099ff;
+  color: #2DC997;
 }
 
 /* section 4 */
@@ -150,15 +150,15 @@
   min-height: 700px;
 }
 
-.section-4 > .container > .row > .col-md{
+.section-4 > .container > .row > .col-lg{
   margin: 20px;
 }
 
-.section-4 > .container > .row > .col-md > .card > .card-body{
+.section-4 > .container > .row > .col-lg > .card > .card-body{
   background-color: #FAFAFA;
 }
 
-.section-4 > .container > .row > .col-md > .card > .card-body > .icon > a{
+.section-4 > .container > .row > .col-lg > .card > .card-body > .icon > a{
   position: relative;
   bottom: 40px;
   font-size: 30px;
@@ -168,7 +168,7 @@
   border-radius: 100%;
 }
 
-.section-4 > .container > .row > .col-md > .card > .card-body > .icon > a:hover{
+.section-4 > .container > .row > .col-lg > .card > .card-body > .icon > a:hover{
   color: #2DC997;
   background-color: white;
   border: solid 3px #2DC997;
@@ -211,6 +211,106 @@
   background-color: #2DC997;
 }
 
+/* section 6 */
+
+.section-6{
+  min-width: 100vw;
+  min-height: 90vh;
+  background-color: #F7F7F7;
+}
+
+.section-6 > .container > .para > .col-md{
+  margin-top: 80px;
+}
+
+.section-6 > .container > .list{
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+
+.section-6 > .container > .list > .col-md{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section-6 > .container > .list > .col-md > .word{
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+}
+
+.section-6 > .container > .list > .col-md > .word > a{
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.section-6 > .container > .list > .col-md > .word > .active{
+  background-color: #2DC997;
+  color: white;
+}
+
+.section-6 > .container > .list > .col-md > .word > .pasive{
+  color: #2DC997;
+  background-color: white;
+}
+
+.section-6 > .container > .list > .col-md > .word > .pasive:hover{
+  background-color: #2DC997;
+  color: white;
+}
+
+.section-6 > .container > .row{
+  margin-bottom: 30px;
+}
+
+.section-6 > .container > .end{
+  margin-bottom: 50px;
+}
+
+.section-6 > .container > .row > .col-lg > .cover > .card{
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  z-index: 97;
+}
+
+.section-6 > .container > .row > .col-lg > .cover > .card > .details{
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  z-index: 98;
+}
+
+.section-6 > .container > .row > .col-lg > .cover > .card > .details:hover{
+  visibility: visible;
+}
+
+.section-6 > .container > .row > .col-lg > .cover > .card > .details > .body{
+  width: 100%;
+  height: 55px;
+  background-color: #2DC997;
+}
+
+.section-6 > .container > .row > .col-lg > .cover > .card > .details > .body > h6{
+  font-size: 15px;
+  margin: 7px 10px 5px;
+  color: white;
+}
+
+.section-6 > .container > .row > .col-lg > .cover > .card > .details > .body > p{
+  font-size: 12px;
+  margin-left: 10px;
+  color: white;
+}
+
+.section-6 > .container > .row > .col-lg > .app > .card{
+  background-image: url(../img/johannes-plenio-qkfxBc2NQ18-unsplash.jpg);
+}
 
 
 
@@ -303,6 +403,13 @@
 
   .section-5 > .container > .row > .col-md-4 > .button > button > h5{
     font-size: 12px;
+  }
+
+  /* section 6 */
+
+  .section-6 > .container > .list > .col-md > .word{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
   }
 
 }
