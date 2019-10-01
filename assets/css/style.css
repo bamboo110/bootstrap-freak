@@ -50,6 +50,7 @@
   background-image: url(../img/johannes-plenio-qkfxBc2NQ18-unsplash.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .section-1 > .container-fluid > .para{
