@@ -217,6 +217,11 @@
   min-width: 100vw;
   min-height: 90vh;
   background-color: #F7F7F7;
+  padding-bottom: 50px;
+}
+
+.section-6 > .container > .row{
+  margin: 0;
 }
 
 .section-6 > .container > .para > .col-md{
@@ -263,54 +268,121 @@
   color: white;
 }
 
-.section-6 > .container > .row{
-  margin-bottom: 30px;
-}
-
-.section-6 > .container > .end{
-  margin-bottom: 50px;
-}
-
-.section-6 > .container > .row > .col-lg > .cover > .card{
+.section-6 > .container > .row > .col-lg > .page{
+  display: flex;
+  flex-direction: column;
   height: 200px;
+  margin: 10px;
+}
+
+.section-6 > .container > .row > .col-lg > .app-1{
+  background-image: url(../img/img-6/manage-phone-folders-apps-landing-page_52683-23930.jpg);
   background-size: cover;
   background-position: center;
-  border: none;
-  z-index: 97;
 }
 
-.section-6 > .container > .row > .col-lg > .cover > .card > .details{
+.section-6 > .container > .row > .col-lg > .app-2{
+  background-image: url(../img/img-6/gradient-smartphone-isometric-technology-background_52683-5978.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .app-3{
+  background-image: url(../img/img-6/front-view-dating-app-concept_23-2148260461.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .card-1{
+  background-image: url(../img/img-6/postcard-wedding-invitation_1207-450.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .card-2{
+  background-image: url(../img/img-6/wavy-vector-flyer_1409-845.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .card-3{
+  background-image: url(../img/img-6/minimalist-vertical-business-card_74343-114.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .logo-1{
+  background-image: url(../img/img-6/bicycle-shop-logo-design-vector_53876-40626.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .logo-2{
+  background-image: url(../img/img-6/gradient-logo-template-with-abstract-shape_52683-16507.jpg);
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .logo-3{
+  background-image: url(../img/img-6/golden-bird-logo-design_1195-336.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .web-1{
+  background-image: url(../img/img-6/fluid-sport-landing-page_23-2148293705.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .web-2{
+  background-image: url(../img/img-6/travel-landing-page-with-beautiful-landscape_52683-24795.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .web-3{
+  background-image: url(../img/img-6/discussion-landing-page-background_125041-18.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-6 > .container > .row > .col-lg > .page > .vis{
   width: 100%;
   height: 100%;
-  visibility: hidden;
-  z-index: 98;
 }
 
-.section-6 > .container > .row > .col-lg > .cover > .card > .details:hover{
+.section-6 > .container > .row > .col-lg > .page > .vis > .details{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 155px;
+  width: 100%;
+  height: 45px;
+  background-color: #2DC997;
+  visibility: hidden;
+}
+
+.section-6 > .container > .row > .col-lg > .page > .vis:hover > .details{
   visibility: visible;
 }
 
-.section-6 > .container > .row > .col-lg > .cover > .card > .details > .body{
-  width: 100%;
-  height: 55px;
-  background-color: #2DC997;
-}
-
-.section-6 > .container > .row > .col-lg > .cover > .card > .details > .body > h6{
+.section-6 > .container > .row > .col-lg > .page > .vis > .details > h6{
+  margin-left: 5px;
+  margin-top: 2px;
   font-size: 15px;
-  margin: 7px 10px 5px;
   color: white;
 }
 
-.section-6 > .container > .row > .col-lg > .cover > .card > .details > .body > p{
+.section-6 > .container > .row > .col-lg > .page > .vis > .details > p{
+  margin-left: 5px;
+  margin-top: -3px;
   font-size: 12px;
-  margin-left: 10px;
   color: white;
 }
 
-.section-6 > .container > .row > .col-lg > .app > .card{
-  background-image: url(../img/johannes-plenio-qkfxBc2NQ18-unsplash.jpg);
-}
+
+
+
 
 
 
