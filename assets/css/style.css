@@ -268,11 +268,15 @@
   color: white;
 }
 
+.section-6 > .container > .row > .col-lg{
+  margin: 0 -3px;
+}
+
 .section-6 > .container > .row > .col-lg > .page{
   display: flex;
   flex-direction: column;
   height: 200px;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .section-6 > .container > .row > .col-lg > .app-1{
