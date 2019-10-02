@@ -389,6 +389,83 @@
   color: white;
 }
 
+/* section 7 */
+.section-7{
+  min-width: 100vw;
+  min-height: 600px;
+}
+
+.section-7 > .container{
+  margin-bottom: 50px;
+}
+
+.section-7 > .container > .first > .para{
+  margin-top: 80px;
+}
+
+.section-7 > .container > .second > .col-lg{
+  margin-top: 80px;
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .img{
+  height: 250px;
+  background-size: cover;
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .pic-1{
+  background-image: url(../img/img-7/young-courier-green-clothes-showing-ok-gesture_23-2148205482.jpg);
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .pic-2{
+  background-image: url(../img/img-7/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg);
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .pic-3{
+  background-image: url(../img/img-7/portrait-serious-young-man-posing-looking-camera_23-2148213422.jpg);
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .pic-4{
+  background-image: url(../img/img-7/beautiful-young-asian-woman-with-clean-fresh-skin_65293-1317.jpg);
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .details{
+  margin-top: 20px;
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .details > h5{
+  font-size: 15px;
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .details > p{
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .icon > a{
+  margin: 2px;
+  text-decoration: none;
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .icon > a > i{
+  color: #B3B3B3;
+  font-size: 19px;
+}
+
+.section-7 > .container > .second > .col-lg > .profile > .icon > a:hover > i{
+  color: #2DC997;
+}
+
+/* section 8 */
+.section-8{
+  background-color: #F7F7F7;
+}
+
+
+
+
+
+
+
 
 
 
