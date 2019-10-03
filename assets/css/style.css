@@ -5,7 +5,7 @@
 }
 
 .header > .navbar{
-  width: 100%;
+  width: 100vw;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 999;
 }
@@ -497,17 +497,16 @@
 
 .section-8 > .container > .second > .col-lg-3 > .label > a > .icon{
   padding: 10px;
-  border-radius: 100%;
-}
-
-.section-8 > .container > .second > .col-lg-3 > .label > a > .icon:hover > i{
-  color: #2DC997;
 }
 
 .section-8 > .container > .second > .col-lg-3 > .label > a > .icon > i{
   font-size: 25px;
   border-radius: 100%;
   color: black;
+}
+
+.section-8 > .container > .second > .col-lg-3 > .label > a > .icon:hover > i{
+  color: #2DC997;
 }
 
 .section-8 > .container > .second > .col-lg-5 > form > .form-group > button{
