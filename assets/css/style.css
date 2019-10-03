@@ -82,7 +82,6 @@
 
 .section-2{
   min-width: 100vw;
-  min-height: 600px;
 }
 
 .section-2 > .content{
@@ -90,7 +89,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 
@@ -202,12 +201,15 @@
 
 .section-5 > .container > .row > .col-md-4 > .button > button{
   margin-top: 135px;
-  color: white;
-  border: solid 1px white;
-  padding: 5px 20px;
 }
 
-.section-5 > .container > .row > .col-md-4 > .button > button:hover{
+.section-5 > .container > .row > .col-md-4 > .button > button > h5{
+  color: white;
+  border: solid 1px white;
+  padding: 10px 20px;
+}
+
+.section-5 > .container > .row > .col-md-4 > .button > button:hover > h5{
   border: none;
   background-color: #2DC997;
 }
@@ -554,7 +556,17 @@ footer > .container > p > span{
 
 
 
+@media (max-width : 990px){
+  .header > .navbar > .navbar-brand{
+    margin-left: 10px;
+}
+
 @media (max-width : 768px){
+  /* header */
+  .header > .navbar > .navbar-brand{
+    font-size: 30px;
+  }
+
   /* section 2 */
   .section-2 > .content{
     flex-direction: column-reverse;
@@ -629,6 +641,10 @@ footer > .container > p > span{
   .section-2 > .content > .para > ul > li > .icon > i{
     font-size: 20px;
     padding: 10px 10px;
+  }
+
+  .section-2 > .content > .img > .image{
+    width: 100vw;
   }
 
   /* section 5 */
