@@ -7,6 +7,10 @@
 ## Intro
 <p> This is my second project using Bootstrap. I think bootstrap or other libraries have advantages that make it easier and there are also difficulties in using bootstrap. After I used it in this project I felt there were significant difficulties even though the bootstrap also made my job quite easy.</p>
 
+## Built with
+[![Html 5](https://img.shields.io/badge/Html-5-blue)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+[![Css 3](https://img.shields.io/badge/Css-3-orange)](http://www.css3.info/)
+
 ## How to instal
 1. Download this project or you can clone ``` git clone https://github.com/bamboo110/bootstrap-freak.git ```
 2. Open this folder
