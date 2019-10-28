@@ -14,26 +14,26 @@
 
 ## Screenshot
 <p align='center'>
-      <image width="500" src="assets/img/ss-1.PNG" />
+      <image width="500" src="assets/img/ss/ss-1.PNG" />
 </p>
 <p align='center'>
-      <image width="500" src="assets/img/ss-2.PNG" />
+      <image width="500" src="assets/img/ss/ss-2.PNG" />
 </p>
 <p align='center'>
-      <image width="500" src="assets/img/ss-3.PNG" />
+      <image width="500" src="assets/img/ss/ss-3.PNG" />
 </p>
 <p align='center'>
-      <image width="500" src="assets/img/ss-4.PNG" />
+      <image width="500" src="assets/img/ss/ss-4.PNG" />
 </p>
 <p align='center'>
-      <image width="500" src="assets/img/ss-5.PNG" />
+      <image width="500" src="assets/img/ss/ss-5.PNG" />
 </p>
 <p align='center'>
-      <image width="500" src="assets/img/ss-6.PNG" />
+      <image width="500" src="assets/img/ss/ss-6.PNG" />
 </p>
 <p align='center'>
-      <image width="500" src="assets/img/ss-7.PNG" />
+      <image width="500" src="assets/img/ss/ss-7.PNG" />
 </p>
 <p align='center'>
-      <image width="500" src="assets/img/ss-8.PNG" />
+      <image width="500" src="assets/img/ss/ss-8.PNG" />
 </p>
